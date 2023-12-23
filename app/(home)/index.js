@@ -66,6 +66,7 @@ const index = () => {
               </Text>
             </Pressable>
             <Pressable
+            onPress={()=> router.push("/(home)/markattendance")}
               style={{
                 backgroundColor: "#D3CCE3",
                 padding: 12,
@@ -148,6 +149,7 @@ const index = () => {
               </View>
             </Pressable>
             <Pressable
+            onPress={()=> router.push("/(home)/summary")}
               style={{
                 backgroundColor: "#BE93C5",
                 borderRadius: 6,
